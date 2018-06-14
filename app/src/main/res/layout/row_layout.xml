@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="#4e4e4e"
+        android:layout_marginTop="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="מספר מטלה"
+            android:id="@+id/TxtBuilding"
+            android:layout_gravity="right|top"
+            android:textColor="#e6e6e6"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="מקצוע"
+            android:id="@+id/TxtClass"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#e6e6e6"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="תאריך הגשה"
+            android:id="@+id/TxtTime"
+            android:layout_gravity="right|bottom"
+            android:textColor="#e6e6e6"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="תאריך הגשה"
+            android:id="@+id/TxtCurrent"
+            android:layout_gravity="left|top"
+            android:textColor="#e6e6e6" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="צ&apos;ק אין"
+            android:id="@+id/check"
+            android:layout_gravity="left|bottom" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="15dp"
+            android:id="@+id/ImageFree1"
+            android:layout_gravity="top|center_vertical|right"
+            android:background="@color/greenB" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="15dp"
+            android:id="@+id/ImageFree2"
+            android:layout_gravity="top|center_vertical|right"
+            android:background="@color/greenB"
+            android:layout_marginTop="22dp" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="15dp"
+            android:id="@+id/ImageFree3"
+            android:layout_gravity="top|center_vertical|right"
+            android:background="@color/greenB"
+            android:layout_marginTop="44dp" />
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="15dp"
+            android:id="@+id/ImageFree4"
+            android:layout_gravity="right|bottom"
+            android:background="@color/greenB"
+            android:layout_marginTop="48dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="דיווח תקלה"
+            android:id="@+id/reportB"
+            android:layout_gravity="left|bottom"
+            android:layout_marginLeft="90dp" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="skedge.yr.yr.skedge.MainActivity"
+    android:background="#303030">
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageMap"
+        android:background="@drawable/circle3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imageMicro"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="MoveToGPS" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageMicro"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/circle1"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="35dp"
+        android:onClick="MoveToMicro" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageLec"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/circle1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="MoveToSearch"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageClass"
+        android:layout_gravity="right|center_vertical"
+        android:onClick="MoveToEmpty"
+        android:background="@drawable/circle"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="353dp"
+        android:layout_height="166dp"
+        android:id="@+id/imageView6"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/banner21"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="מצא לי כיתה"
+        android:id="@+id/textView2"
+        android:layout_gravity="right|center_vertical"
+        android:textColor="#f2f2f2"
+        android:layout_marginTop="74dp"
+        android:layout_marginRight="27dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="איפה אני לומד"
+        android:id="@+id/textView3"
+        android:layout_gravity="left|center_vertical"
+        android:textColor="#f2f2f2"
+        android:layout_marginTop="74dp"
+        android:layout_marginLeft="33dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="יחס אדם למיקרו"
+        android:id="@+id/textView4"
+        android:layout_gravity="right|bottom"
+        android:textColor="#f2f2f2"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="הצג על מפה"
+        android:id="@+id/textView5"
+        android:layout_gravity="left|bottom"
+        android:layout_marginTop="70dp"
+        android:textColor="#f2f2f2"
+        android:layout_marginLeft="31dp"
+        android:layout_marginBottom="12dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/ic_school_black_24dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="55dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/ic_people_black_24dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_gravity="right|bottom"
+        android:background="@drawable/ic_local_dining_black_24dp"
+        android:layout_marginBottom="58dp"
+        android:layout_marginRight="54dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/ic_directions_run_black_24dp1"
+        android:layout_marginBottom="63dp"
+        android:layout_marginLeft="42dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/ic_pin_drop_black_24dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="88dp" />
+
+
+
+</FrameLayout>

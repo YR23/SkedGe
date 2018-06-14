@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="#4e4e4e"
+        android:layout_marginTop="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="מספר מטלה"
+            android:id="@+id/TxtName"
+            android:layout_gravity="right|top"
+            android:textColor="#e6e6e6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="מקצוע"
+            android:id="@+id/TxtBuild"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="#e6e6e6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="תאריך הגשה"
+            android:id="@+id/TxtClasses"
+            android:layout_gravity="right|bottom"
+            android:textColor="#e6e6e6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="בין השעות:"
+            android:id="@+id/nocriti"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="#e6e6e6"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="תאריך הגשה"
+            android:id="@+id/TxtZman"
+            android:layout_gravity="left|bottom"
+            android:textColor="#e6e6e6" />
+
+    </FrameLayout>
+
+</LinearLayout>

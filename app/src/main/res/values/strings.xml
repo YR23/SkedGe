@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">SkedGe</string>
+    <string name="pause">pause</string>
+    <string name="resume">resume</string>
+    <string name="facebook_app_id">627654887429510</string>
+    <string-array name="hours">
+        <item> 08:00 </item>
+        <item> 09:00 </item>
+        <item> 10:00 </item>
+        <item> 11:00 </item>
+        <item> 12:00 </item>
+        <item> 13:00 </item>
+        <item> 14:00 </item>
+        <item> 15:00 </item>
+        <item> 16:00 </item>
+        <item> 17:00 </item>
+        <item> 18:00 </item>
+        <item> 19:00 </item>
+        <item> 20:00 </item>
+        <item> 21:00 </item>
+    </string-array>
+
+    <string-array name="days">
+        <item> יום ראשון </item>
+        <item> יום שני </item>
+        <item> יום שלישי </item>
+        <item> יום רביעי </item>
+        <item> יום חמישי </item>
+        <item> יום שישי </item>
+        <item> יום שבת </item>
+    </string-array>
+
+    <string-array name="buildings">
+        <item> בניין 2</item>
+        <item> בניין 3</item>
+        <item> בניין 4</item>
+        <item> בניין 5</item>
+        <item> בניין 14</item>
+        <item> בניין 15</item>
+        <item> בניין 16</item>
+        <item> בניין 17</item>
+        <item> בניין 18</item>
+        <item> בניין 22</item>
+        <item> בניין 26 </item>
+        <item> בניין 28</item>
+        <item> בניין 29</item>
+        <item> בניין 32 </item>
+        <item> בניין 34 </item>
+        <item> בניין 35 </item>
+        <item> בניין 38 </item>
+        <item> בניין 48 </item>
+        <item> בניין 54 </item>
+        <item> בניין 55 </item>
+        <item> בניין 58 </item>
+        <item> בניין 59 </item>
+        <item> בניין 60 </item>
+        <item> בניין 72 </item>
+        <item> בניין 74 </item>
+        <item> בניין 90 </item>
+        <item> בניין 92 </item>
+        <item> בניין 95 </item>
+        <item> בניין 97 </item>
+        <item> בניין 98 </item>
+        <item> בניין M1 </item>
+        <item> בניין M2 </item>
+        <item> בניין M3 </item>
+        <item> בניין M6 </item>
+        <item> בניין M8 </item>
+    </string-array>
+
+    <string-array name="buildingsMicro">
+        <item> בניין 15</item>
+        <item> בניין 26 </item>
+        <item> בניין 32 </item>
+        <item> בניין 35 </item>
+        <item> בניין 70 </item>
+        <item> בניין 72 </item>
+        <item> בניין 90 </item>
+    </string-array>
+
+    <string-array name="howmany">
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 3 </item>
+        <item> 4 </item>
+        <item> 5 </item>
+
+    </string-array>
+    <string-array name="emp">
+
+        <item> </item>
+
+    </string-array>
+</resources>

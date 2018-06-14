@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SpinBuild"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SpinDay1"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentTop="true"
+        android:spinnerMode="dropdown"
+        android:scrollIndicators="bottom"
+        android:textAlignment="center"
+        android:layout_toEndOf="@+id/SpinHour"
+        android:layout_gravity="center_horizontal|top" />
+
+    <Spinner
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:id="@+id/SpinHour"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:layout_gravity="right|top" />
+
+
+</FrameLayout>
